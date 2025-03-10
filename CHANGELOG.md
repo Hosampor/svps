@@ -1,5 +1,25 @@
 # Changelog
 
+## [3.0.0](https://github.com/Hosampor/svps/compare/v2.3.0...v3.0.0) (2025-03-10)
+
+
+### ⚠ BREAKING CHANGES
+
+* upgrade to v2
+
+### Features
+
+* add AWS and arm64 support ([#8](https://github.com/Hosampor/svps/issues/8)) ([f906102](https://github.com/Hosampor/svps/commit/f906102e96c07364990a7b64c1b527240bcf748c))
+* added `buildFromScratch` option for better transparency ([ace6662](https://github.com/Hosampor/svps/commit/ace6662325544bfd5fb0ba79a8d515bf546d35c6))
+* support download via SFTP ([29ebf7f](https://github.com/Hosampor/svps/commit/29ebf7f0c832e90e4e7956a80e12f88c56c66804))
+* upgrade to v2 ([4a6e143](https://github.com/Hosampor/svps/commit/4a6e14353b6d179c0dbb4853343bb123563adbd8))
+
+
+### Bug Fixes
+
+* PHP Virtual Host missing unzip ([878979b](https://github.com/Hosampor/svps/commit/878979bae2f8b9fdad5922245559f0b836154150))
+* recreate image when overwriting the Virtual Host ([4c5e92a](https://github.com/Hosampor/svps/commit/4c5e92a5190f09769526da1355645cbf663b73cf))
+
 ## [2.3.0](https://github.com/wellwelwel/svps/compare/v2.2.1...v2.3.0) (2024-03-20)
 
 
